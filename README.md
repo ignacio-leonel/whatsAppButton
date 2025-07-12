@@ -24,23 +24,29 @@ Este es un componente reutilizable que permite agregar un botón flotante de Wha
 
 ```bash
 npm install react-icons framer-motion
+```
+
+
 Usá el componente en tu app:
 
-tsx
-Copiar
-Editar
+```bash
 import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
-    <>
+    <WhatsAppButton/>
       {/* Tu contenido */}
       <WhatsAppButton />
     </>
   );
 }
+
+```
+
 🧠 Cómo funciona
 Al hacer clic, abre una conversación en WhatsApp con un mensaje predefinido:
+
+
 
 window.open(`https://wa.me/5491112345678?text=${encodeURIComponent(message)}`, '_blank');
 ✏️ Reemplazá el número por el tuyo y editá el mensaje si querés.
@@ -54,7 +60,7 @@ Cambiá el tamaño o ícono (FaWhatsapp) si preferís otro estilo.
 
 Si querés que se muestre con delay o con otro tipo de animación, modificá las props de motion.button.
 
-```
+
 
 📲 ¿Querés verlo en acción?
 ¡Grabé un mini demo mostrando cómo integrarlo!
