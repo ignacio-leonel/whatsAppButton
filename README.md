@@ -1,9 +1,4 @@
-ChatGPT Plus
-¡Obvio, Nachito! Acá tenés el README.md limpio y directo para el repo del botón flotante de WhatsApp, ideal para que lo subas y lo compartas. Lo escribí con foco en que sea claro, profesional, y compartible.
 
-markdown
-Copiar
-Editar
 # 💬 Botón flotante de WhatsApp (React + Tailwind + Framer Motion)
 
 Este es un componente reutilizable que permite agregar un botón flotante de WhatsApp en cualquier sitio hecho con React.
