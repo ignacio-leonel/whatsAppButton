@@ -54,7 +54,8 @@ Cambiá el tamaño o ícono (FaWhatsapp) si preferís otro estilo.
 
 Si querés que se muestre con delay o con otro tipo de animación, modificá las props de motion.button.
 
-´´´
+```
+
 📲 ¿Querés verlo en acción?
 ¡Grabé un mini demo mostrando cómo integrarlo!
 (Podés ver el video en mi perfil de GitHub o en LinkedIn.)
