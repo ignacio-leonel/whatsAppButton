@@ -47,12 +47,13 @@ function App() {
 Al hacer clic, abre una conversación en WhatsApp con un mensaje predefinido:
 
 
-
 window.open(`https://wa.me/5491112345678?text=${encodeURIComponent(message)}`, '_blank');
 ✏️ Reemplazá el número por el tuyo y editá el mensaje si querés.
 
+---
 
 🎨 Personalización
+
 Cambiá los colores de fondo con clases de Tailwind:
 bg-green-500 hover:bg-green-600 → podés usar los que vos quieras.
 
@@ -60,13 +61,13 @@ Cambiá el tamaño o ícono (FaWhatsapp) si preferís otro estilo.
 
 Si querés que se muestre con delay o con otro tipo de animación, modificá las props de motion.button.
 
-
+---
 
 📲 ¿Querés verlo en acción?
 ¡Grabé un mini demo mostrando cómo integrarlo!
 (Podés ver el video en mi perfil de GitHub o en LinkedIn.)
 
-
+---
 🌟 Apoyá este proyecto
 Si te sirvió:
 
